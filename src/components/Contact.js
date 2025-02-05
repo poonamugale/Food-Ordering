@@ -1,7 +1,22 @@
 const Contact = () => {
   return (
-    <div>
-      <div className="contact">Contact</div>
+    <div className="contact">
+      <h1 className="font-bold text-3xl p-4 m-4"> Contact US Page</h1>
+      <form>
+        <input
+          type="test"
+          className="border border-black p-2 m-2"
+          placeholder="name"
+        />
+        <input
+          type="test"
+          className="border border-black p-2 m-2"
+          placeholder="message"
+        />
+        <button className="border border-black p-2 m-2 bg-gray-100 rounded-lg">
+          Submit
+        </button>
+      </form>
     </div>
   );
 };
